@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>Personal WEB</title>
+<style>
+    p {text-align: center;}
+    img {
+        width: 200px;
+		height: 450px;
+        border-radius: 50%;
+    }
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .center {
+  text-align: center;
+  border: 3px solid black;
+    }
+    </style>
+</head>
+<body>
+    <div class="lingkaran"></div>
+    <img src="20230830_185525.jpg" alt="Wina" style="width:40%">
+
+    <div class="center">
+        <p>Nama Lengkap : Wina Mahatsuna Atsmara Hanifah - NIM: 1202220033 - <b><u>Prodi: Sistem Informasi - <i>Kelas: SI4604</i></u></b></p>
+      </div>
+
+    <div class="center"> 
+        <p><a href="https://www.w3schools.com/">Visit W3Schools.com!</a></p> 
+    </div>
+    <p>Tanggal/Waktu: <span id="tanggalwaktu"></span></p>
+    <p id="datetime"></p>
+
+    <script>
+    var now = new Date();
+    var datetime = now.toLocaleString();
+    document.getElementById("datetime").innerHTML = datetime;
+    </script>
+
+
+</body>
+</html>
